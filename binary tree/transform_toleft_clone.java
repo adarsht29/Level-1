@@ -9,5 +9,5 @@
     Node nn = new Node(node.data,lcr,null);
     node.left=nn;
     node.right=rcr;
-    
+    return node;
   }
